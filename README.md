@@ -46,7 +46,9 @@ A 2D top-down RPG prototype developed in Unity, focusing on player movement, ani
 | Key        | Action          |
 |------------|-----------------|
 | WASD       | Move            |
-| Space      | Attack          |
+| L-Click      | Attack          |
+| Space      | Dash          |
+
 
 ---
 
