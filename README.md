@@ -68,15 +68,18 @@ A 2D top-down RPG prototype developed in Unity, focusing on player movement, ani
 
 ---
 
-## 📂 Project Structure
+## 🧠 System Design
 
+The project is structured into modular gameplay systems:
 
-Assets/
-├── Scripts/
-├── Animations/
-├── Prefabs/
-├── Sprites/
-└── Scenes/
+- **Characters/**: Player and enemy behavior
+- **Combat/**: Damage handling and attack logic
+- **Weapons/**: Weapon definitions and attack behavior
+- **Pickup/**: Item collection system (coins, items)
+- **Core/**: Game-wide systems (input, game manager)
+- **UI/**: HUD and interface elements
+
+This modular design improves scalability and maintainability.
 
 
 ---
