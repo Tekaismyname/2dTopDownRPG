@@ -1,95 +1,95 @@
-# 🎮 2D Top-Down RPG (Combat Prototype)
+# 🎮 2D Top-Down RPG Game (Unity)
 
-A 2D top-down RPG prototype developed in Unity, focusing on player movement, animation, and combat mechanics.
-
----
-
-## 🚀 Features
-
-- 🕹️ Smooth top-down player movement (4 directions)
-- ⚔️ Basic combat system with attack animations
-- 🔄 Animation state machine using Unity Animator
-- 🎯 Input handling for responsive player actions
-- 🧠 Combo attack logic (if implemented)
-- 🛠️ Debugged animation interruption and state reset issues
+A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI, weapon systems, and modular game architecture.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Demo
 
-- Unity (2D)
+🎥 Gameplay Video: (add your video link here)  
+📦 Download Build: (add Google Drive / itch.io link)
+
+---
+
+## 📌 Features
+
+- 🧍 Player movement with stamina system
+- ⚔️ Combat system (melee & ranged)
+- 🔁 Combo attack system (Attack 1 → Attack 2)
+- 👾 Enemy AI (chasing, attacking, taking damage)
+- 🏹 Multiple weapons:
+  - Sword (melee)
+  - Bow (projectile)
+  - Staff (magic)
+- 💥 VFX system (hit effects, death effects)
+- 🎒 Inventory & weapon switching
+- 🧠 Modular architecture (Core / Gameplay / Systems)
+
+---
+
+## 🏗️ Project Structure
+Assets/
+├── Animations/
+├── Materials/
+├── Prefabs/
+├── Scenes/
+├── ScriptableObjects/
+├── Scripts/
+│ ├── Core/
+│ ├── Gameplay/
+│ │ ├── Player/
+│ │ ├── Enemies/
+│ │ ├── Weapons/
+│ │ ├── Combat/
+│ │ ├── Pickup/
+│ ├── UI/
+│ ├── Systems/
+├── Sprites/
+├── Tilemap/
+
+
+
+---
+
+## 🧠 Architecture Overview
+
+The project follows a modular architecture:
+
+- **Core Layer**
+  - Managers (Game, Scene, Economy)
+  - Input handling
+- **Gameplay Layer**
+  - Player, Enemies, Weapons, Combat
+- **System Layer**
+  - Camera, Animation, Effects
+- **Data Layer**
+  - ScriptableObjects for weapon configuration
+
+---
+
+## 🎮 Controls
+
+| Action        | Key |
+|--------------|-----|
+| Move         | WASD |
+| Attack       | Left Click |
+| Switch Weapon| Q / E |
+| Roll / Dodge | Space |
+
+---
+
+## 🛠️ Technologies
+
+- Unity (2D URP)
 - C#
-- Unity Animator
-- ScriptableObject (if used)
-- Input System (or Legacy Input)
+- Unity Input System
+- ScriptableObjects
+- Animator / Blend Tree
 
 ---
 
-## 🎮 Gameplay Demo
+## ⚙️ Setup & Run
 
-> 📌 Demo video link
-
----
-
-## 🧠 What I Learned
-
-- Designing animation state machines for character actions
-- Handling player input and preventing action spam
-- Debugging animation transition issues (e.g., stuck in attack / not returning to idle)
-- Implementing basic combat logic and combo system
-- Structuring game logic using C# scripts in Unity
-
----
-
-## ⚙️ Controls
-
-| Key        | Action          |
-|------------|-----------------|
-| WASD       | Move            |
-| L-Click      | Attack          |
-| Space      | Dash          |
-
-
----
-
-## 📌 Future Improvements
-
-- Add enemy AI and combat interaction
-- Improve combo system (multiple attack chains)
-- Add hit effects (knockback, flash, sound)
-- Implement health system and UI
-- Polish animation transitions
-
----
-
-## 📷 Screenshots
-
-> Add gameplay screenshots here
-
----
-
-## 🧠 System Design
-
-The project is structured into modular gameplay systems:
-
-- **Characters/**: Player and enemy behavior
-- **Combat/**: Damage handling and attack logic
-- **Weapons/**: Weapon definitions and attack behavior
-- **Pickup/**: Item collection system (coins, items)
-- **Core/**: Game-wide systems (input, game manager)
-- **UI/**: HUD and interface elements
-
-This modular design improves scalability and maintainability.
-
-
----
-
-## 📎 Author
-
-- GitHub: https://github.com/Tekaismyname
-
----
-
-## ⭐ Notes
-
-This project is a learning-focused prototype aimed at understanding core RPG mechanics such as movement, animation, and combat systems.
+### 1. Clone project
+```bash
+git clone https://github.com/Tekaismyname/2dTopDownRPG.git
