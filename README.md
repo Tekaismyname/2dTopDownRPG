@@ -38,24 +38,24 @@ A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI,
 ---
 
 ## 🏗️ Project Structure
-Assets/
-├── Animations/
-├── Materials/
-├── Prefabs/
-├── Scenes/
-├── ScriptableObjects/
-├── Scripts/
-│ ├── Core/
-│ ├── Gameplay/
-│ │ ├── Player/
-│ │ ├── Enemies/
-│ │ ├── Weapons/
-│ │ ├── Combat/
-│ │ ├── Pickup/
-│ ├── UI/
-│ ├── Systems/
-├── Sprites/
-├── Tilemap/
+Assets/ <br>
+├── Animations/ <br>
+├── Materials/ <br>
+├── Prefabs/ <br>
+├── Scenes/ <br>
+├── ScriptableObjects/ <br>
+├── Scripts/ <br>
+│ ├── Core/ <br>
+│ ├── Gameplay/ <br>
+│ │ ├── Player/ <br>
+│ │ ├── Enemies/ <br>
+│ │ ├── Weapons/ <br>
+│ │ ├── Combat/ <br>
+│ │ ├── Pickup/ <br>
+│ ├── UI/ <br>
+│ ├── Systems/ <br>
+├── Sprites/ <br>
+├── Tilemap/ <br>
 
 
 
