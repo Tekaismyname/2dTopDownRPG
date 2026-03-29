@@ -83,7 +83,7 @@ The project follows a modular architecture:
 |--------------|-----|
 | Move         | WASD |
 | Attack       | Left Click |
-| Switch Weapon| Q / E |
+| Switch Weapon| 1 2 3 |
 | Roll / Dodge | Space |
 
 ---
