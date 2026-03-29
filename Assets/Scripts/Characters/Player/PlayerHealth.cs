@@ -79,13 +79,16 @@ public class PlayerHealth : Singleton<PlayerHealth>
             currentHealth = 0;
             GetComponent<Animator>().SetTrigger(DEATH_HASH);
             StartCoroutine(DeathLoadSceneRoutine());
+
+
         }
     }
 
     private IEnumerator DeathLoadSceneRoutine(){
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
-        SceneManager.LoadScene(TOWN_TEXT);
+        FindObjectOfType<GameOverUI>().ShowGameOver();
+        //SceneManager.LoadScene(TOWN_TEXT);
     }
     private IEnumerator damageRecoveryRoutine()
     {

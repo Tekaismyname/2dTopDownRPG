@@ -1,0 +1,1169 @@
+Folder PATH listing for volume Teka
+Volume serial number is DC12-2654
+C:.
+|   Animations.meta
+|   Materials.meta
+|   Prefabs.meta
+|   Scenes.meta
+|   Scriptable Object.meta
+|   Scripts.meta
+|   Settings.meta
+|   Sprites.meta
+|   structure.txt
+|   TextMesh Pro.meta
+|   Tilemap.meta
+|   UI.meta
+|   UniversalRenderPipelineGlobalSettings.asset
+|   UniversalRenderPipelineGlobalSettings.asset.meta
+|   
++---Animations
+|   |   Blue Slime.meta
+|   |   Bow.meta
+|   |   Gold Coin.meta
+|   |   Grape.meta
+|   |   Player.meta
+|   |   Staff.meta
+|   |   Sword.meta
+|   |   Torche.meta
+|   |   
+|   +---Blue Slime
+|   |       Blue Slime.anim
+|   |       Blue Slime.anim.meta
+|   |       Blue Slime.controller
+|   |       Blue Slime.controller.meta
+|   |       
+|   +---Bow
+|   |       Attack.anim
+|   |       Attack.anim.meta
+|   |       Bow.controller
+|   |       Bow.controller.meta
+|   |       Bow0.anim
+|   |       Bow0.anim.meta
+|   |       
+|   +---Gold Coin
+|   |       Gold Coin.controller
+|   |       Gold Coin.controller.meta
+|   |       Gold Coin0.anim
+|   |       Gold Coin0.anim.meta
+|   |       
+|   +---Grape
+|   |       Attacking.anim
+|   |       Attacking.anim.meta
+|   |       Grape.controller
+|   |       Grape.controller.meta
+|   |       Walking.anim
+|   |       Walking.anim.meta
+|   |       
+|   +---Player
+|   |       Dealth.anim
+|   |       Dealth.anim.meta
+|   |       Idle.anim
+|   |       Idle.anim.meta
+|   |       Player.controller
+|   |       Player.controller.meta
+|   |       Running.anim
+|   |       Running.anim.meta
+|   |       
+|   +---Staff
+|   |       Attack.anim
+|   |       Attack.anim.meta
+|   |       Staff.controller
+|   |       Staff.controller.meta
+|   |       Staff0.anim
+|   |       Staff0.anim.meta
+|   |       
+|   +---Sword
+|   |       Entry.anim
+|   |       Entry.anim.meta
+|   |       Entry_Slash.anim
+|   |       Entry_Slash.anim.meta
+|   |       Slash.controller
+|   |       Slash.controller.meta
+|   |       SwingDown.anim
+|   |       SwingDown.anim.meta
+|   |       SwingUp.anim
+|   |       SwingUp.anim.meta
+|   |       Sword.controller
+|   |       Sword.controller.meta
+|   |       
+|   \---Torche
+|           Torche.controller
+|           Torche.controller.meta
+|           Torche0.anim
+|           Torche0.anim.meta
+|           
++---Materials
+|       BossBullet.mat
+|       BossBullet.mat.meta
+|       Bullet.mat
+|       Bullet.mat.meta
+|       Glowshade.shadergraph
+|       Glowshade.shadergraph.meta
+|       Health.mat
+|       Health.mat.meta
+|       Magic Laser.mat
+|       Magic Laser.mat.meta
+|       Magic.mat
+|       Magic.mat.meta
+|       Particle Material.mat
+|       Particle Material.mat.meta
+|       Portal.mat
+|       Portal.mat.meta
+|       Slash.mat
+|       Slash.mat.meta
+|       Stamina.mat
+|       Stamina.mat.meta
+|       Torche.mat
+|       Torche.mat.meta
+|       Trail Renderer.mat
+|       Trail Renderer.mat.meta
+|       Twinkle.mat
+|       Twinkle.mat.meta
+|       WhiteSlash.mat
+|       WhiteSlash.mat.meta
+|       
++---Prefabs
+|   |   AreaExit.prefab
+|   |   AreaExit.prefab.meta
+|   |   Barrel.prefab
+|   |   Barrel.prefab.meta
+|   |   Bush.prefab
+|   |   Bush.prefab.meta
+|   |   Crate 1.prefab
+|   |   Crate 1.prefab.meta
+|   |   Crate 2.prefab
+|   |   Crate 2.prefab.meta
+|   |   Crate 3.prefab
+|   |   Crate 3.prefab.meta
+|   |   Crate.prefab
+|   |   Crate.prefab.meta
+|   |   Enemies.meta
+|   |   Pickup items.meta
+|   |   Scene Manament.meta
+|   |   Slash Prefab.prefab
+|   |   Slash Prefab.prefab.meta
+|   |   Torche.prefab
+|   |   Torche.prefab.meta
+|   |   Tree1.prefab
+|   |   Tree1.prefab.meta
+|   |   Tree2.prefab
+|   |   Tree2.prefab.meta
+|   |   Tree3.prefab
+|   |   Tree3.prefab.meta
+|   |   Tree4.prefab
+|   |   Tree4.prefab.meta
+|   |   Tree5.prefab
+|   |   Tree5.prefab.meta
+|   |   Twinkle.prefab
+|   |   Twinkle.prefab.meta
+|   |   VFX.meta
+|   |   Weapons.meta
+|   |   
+|   +---Enemies
+|   |       Blue Slime.prefab
+|   |       Blue Slime.prefab.meta
+|   |       Ghost Boss.prefab
+|   |       Ghost Boss.prefab.meta
+|   |       Ghost.prefab
+|   |       Ghost.prefab.meta
+|   |       Grape.prefab
+|   |       Grape.prefab.meta
+|   |       
+|   +---Pickup items
+|   |       Gold Coin.prefab
+|   |       Gold Coin.prefab.meta
+|   |       Health.prefab
+|   |       Health.prefab.meta
+|   |       Stamina.prefab
+|   |       Stamina.prefab.meta
+|   |       
+|   +---Scene Manament
+|   |       Camera.prefab
+|   |       Camera.prefab.meta
+|   |       Managers.prefab
+|   |       Managers.prefab.meta
+|   |       Player.prefab
+|   |       Player.prefab.meta
+|   |       UI Canvas.prefab
+|   |       UI Canvas.prefab.meta
+|   |       
+|   +---VFX
+|   |       Arrow VFX.prefab
+|   |       Arrow VFX.prefab.meta
+|   |       Barrel VFX.prefab
+|   |       Barrel VFX.prefab.meta
+|   |       Brush VFX.prefab
+|   |       Brush VFX.prefab.meta
+|   |       Crate VFX.prefab
+|   |       Crate VFX.prefab.meta
+|   |       Death VFX.prefab
+|   |       Death VFX.prefab.meta
+|   |       Ghost Death VFX.prefab
+|   |       Ghost Death VFX.prefab.meta
+|   |       Magic VFX.prefab
+|   |       Magic VFX.prefab.meta
+|   |       Portal VFX.prefab
+|   |       Portal VFX.prefab.meta
+|   |       Slime Death VFX.prefab
+|   |       Slime Death VFX.prefab.meta
+|   |       
+|   \---Weapons
+|           Arrow.prefab
+|           Arrow.prefab.meta
+|           Bow.prefab
+|           Bow.prefab.meta
+|           Bullet.prefab
+|           Bullet.prefab.meta
+|           BulletForBoss.prefab
+|           BulletForBoss.prefab.meta
+|           Grape Projectile Splatter.prefab
+|           Grape Projectile Splatter.prefab.meta
+|           Grape Projectile.prefab
+|           Grape Projectile.prefab.meta
+|           Grape Shadow.prefab
+|           Grape Shadow.prefab.meta
+|           Magic Laser.prefab
+|           Magic Laser.prefab.meta
+|           Staff.prefab
+|           Staff.prefab.meta
+|           Sword.prefab
+|           Sword.prefab.meta
+|           
++---Scenes
+|   |   Scene1.meta
+|   |   Scene1.unity
+|   |   Scene1.unity.meta
+|   |   Scene2.unity
+|   |   Scene2.unity.meta
+|   |   Scene2Dungeon.unity
+|   |   Scene2Dungeon.unity.meta
+|   |   
+|   \---Scene1
+|           Global Volume Profile.asset
+|           Global Volume Profile.asset.meta
+|           
++---Scriptable Object
+|       Bow.asset
+|       Bow.asset.meta
+|       Staff.asset
+|       Staff.asset.meta
+|       Sword.asset
+|       Sword.asset.meta
+|       
++---Scripts
+|   |   Characters.meta
+|   |   Damages.meta
+|   |   Managers.meta
+|   |   Misc.meta
+|   |   Pickup.meta
+|   |   UI.meta
+|   |   Weapons.meta
+|   |   
+|   +---Characters
+|   |   |   Enemies.meta
+|   |   |   Player.meta
+|   |   |   
+|   |   +---Enemies
+|   |   |       EnemyAI.cs
+|   |   |       EnemyAI.cs.meta
+|   |   |       EnemyHealth.cs
+|   |   |       EnemyHealth.cs.meta
+|   |   |       EnemyPathFinding.cs
+|   |   |       EnemyPathFinding.cs.meta
+|   |   |       Grape.cs
+|   |   |       Grape.cs.meta
+|   |   |       GrapeProjectile.cs
+|   |   |       GrapeProjectile.cs.meta
+|   |   |       IEnemy.cs
+|   |   |       IEnemy.cs.meta
+|   |   |       Shooter.cs
+|   |   |       Shooter.cs.meta
+|   |   |       
+|   |   \---Player
+|   |           PlayerController.cs
+|   |           PlayerController.cs.meta
+|   |           PlayerHealth.cs
+|   |           PlayerHealth.cs.meta
+|   |           Stamina.cs
+|   |           Stamina.cs.meta
+|   |           
+|   +---Damages
+|   |       DamageSource.cs
+|   |       DamageSource.cs.meta
+|   |       Flash.cs
+|   |       Flash.cs.meta
+|   |       GrapeLandSplatter.cs
+|   |       GrapeLandSplatter.cs.meta
+|   |       KnockBack.cs
+|   |       KnockBack.cs.meta
+|   |       
+|   +---Managers
+|   |       AreaEntrance.cs
+|   |       AreaEntrance.cs.meta
+|   |       AreaExit.cs
+|   |       AreaExit.cs.meta
+|   |       BaseSingleton.cs
+|   |       BaseSingleton.cs.meta
+|   |       CameraController.cs
+|   |       CameraController.cs.meta
+|   |       EconomyManager.cs
+|   |       EconomyManager.cs.meta
+|   |       MouseFollow.cs
+|   |       MouseFollow.cs.meta
+|   |       Player Controls.cs
+|   |       Player Controls.cs.meta
+|   |       Player Controls.inputactions
+|   |       Player Controls.inputactions.meta
+|   |       RandomIdleAnimation.cs
+|   |       RandomIdleAnimation.cs.meta
+|   |       SceneManagement.cs
+|   |       SceneManagement.cs.meta
+|   |       ScreenShake.cs
+|   |       ScreenShake.cs.meta
+|   |       Singleton.cs
+|   |       Singleton.cs.meta
+|   |       UIFade.cs
+|   |       UIFade.cs.meta
+|   |       
+|   +---Misc
+|   |       Destructible.cs
+|   |       Destructible.cs.meta
+|   |       Parallax.cs
+|   |       Parallax.cs.meta
+|   |       TransparentDetection.cs
+|   |       TransparentDetection.cs.meta
+|   |       
+|   +---Pickup
+|   |       Pickup.cs
+|   |       Pickup.cs.meta
+|   |       PickupSpawner.cs
+|   |       PickupSpawner.cs.meta
+|   |       
+|   +---UI
+|   |       ActiveInventory.cs
+|   |       ActiveInventory.cs.meta
+|   |       Indestructible.cs
+|   |       Indestructible.cs.meta
+|   |       SpriteFade.cs
+|   |       SpriteFade.cs.meta
+|   |       
+|   \---Weapons
+|       |   ActiveWeapon.cs
+|       |   ActiveWeapon.cs.meta
+|       |   Bow.cs
+|       |   Bow.cs.meta
+|       |   Effect.meta
+|       |   InventorySlot.cs
+|       |   InventorySlot.cs.meta
+|       |   Iweapon.cs
+|       |   Iweapon.cs.meta
+|       |   MagicLaser.cs
+|       |   MagicLaser.cs.meta
+|       |   projectile.cs
+|       |   projectile.cs.meta
+|       |   Staff.cs
+|       |   Staff.cs.meta
+|       |   Sword.cs
+|       |   Sword.cs.meta
+|       |   WeaponInfo.cs
+|       |   WeaponInfo.cs.meta
+|       |   
+|       \---Effect
+|               SlashAnim.cs
+|               SlashAnim.cs.meta
+|               
++---Settings
+|   |   Lit2DSceneTemplate.scenetemplate
+|   |   Lit2DSceneTemplate.scenetemplate.meta
+|   |   NoiseSettings.asset
+|   |   NoiseSettings.asset.meta
+|   |   Renderer2D.asset
+|   |   Renderer2D.asset.meta
+|   |   Scenes.meta
+|   |   UniversalRP.asset
+|   |   UniversalRP.asset.meta
+|   |   
+|   \---Scenes
+|           URP2DSceneTemplate.unity
+|           URP2DSceneTemplate.unity.meta
+|           
++---Sprites
+|   |   Blue Slime.meta
+|   |   Bullet.png
+|   |   Bullet.png.meta
+|   |   Cursor.png
+|   |   Cursor.png.meta
+|   |   Gem.png
+|   |   Gem.png.meta
+|   |   Ghost.meta
+|   |   Grape.meta
+|   |   Magic Laser.png
+|   |   Magic Laser.png.meta
+|   |   Objects and buildings.meta
+|   |   Particle Sprite 1.png
+|   |   Particle Sprite 1.png.meta
+|   |   Particle Sprite.png
+|   |   Particle Sprite.png.meta
+|   |   PickUp.meta
+|   |   Player.meta
+|   |   Torche.png
+|   |   Torche.png.meta
+|   |   UI.meta
+|   |   Vegetation.meta
+|   |   Weapons.meta
+|   |   
+|   +---Blue Slime
+|   |   |   shadowless.meta
+|   |   |   spr_Blue_slime_attack.png
+|   |   |   spr_Blue_slime_attack.png.meta
+|   |   |   spr_Blue_slime_death.png
+|   |   |   spr_Blue_slime_death.png.meta
+|   |   |   spr_Blue_slime_hurt.png
+|   |   |   spr_Blue_slime_hurt.png.meta
+|   |   |   spr_Blue_slime_hurt_without_filter.png
+|   |   |   spr_Blue_slime_hurt_without_filter.png.meta
+|   |   |   spr_Blue_slime_idle.png
+|   |   |   spr_Blue_slime_idle.png.meta
+|   |   |   spr_Blue_slime_walk.png
+|   |   |   spr_Blue_slime_walk.png.meta
+|   |   |   
+|   |   \---shadowless
+|   |           spr_Blue_slime_attack_shadowless.png
+|   |           spr_Blue_slime_attack_shadowless.png.meta
+|   |           spr_Blue_slime_hurt_shadowless.png
+|   |           spr_Blue_slime_hurt_shadowless.png.meta
+|   |           spr_Blue_slime_idle_shadowless.png
+|   |           spr_Blue_slime_idle_shadowless.png.meta
+|   |           spr_Blue_slime_walk_shadowless.png
+|   |           spr_Blue_slime_walk_shadowless.png.meta
+|   |           
+|   +---Ghost
+|   |       Ghost.png
+|   |       Ghost.png.meta
+|   |       Shadows_Sheet.png
+|   |       Shadows_Sheet.png.meta
+|   |       
+|   +---Grape
+|   |       Grape Attack Sheet.png
+|   |       Grape Attack Sheet.png.meta
+|   |       Grape Projectile Splatter.png
+|   |       Grape Projectile Splatter.png.meta
+|   |       Grape Projectile.png
+|   |       Grape Projectile.png.meta
+|   |       Grape Walk Sheet.png
+|   |       Grape Walk Sheet.png.meta
+|   |       Shadows_Sheet.png
+|   |       Shadows_Sheet.png.meta
+|   |       
+|   +---Objects and buildings
+|   |   |   Barrels and crates.meta
+|   |   |   Bridge.meta
+|   |   |   Chest.meta
+|   |   |   Fences.meta
+|   |   |   
+|   |   +---Barrels and crates
+|   |   |       spr_barrel1.png
+|   |   |       spr_barrel1.png.meta
+|   |   |       spr_barrel2.png
+|   |   |       spr_barrel2.png.meta
+|   |   |       spr_crate1.png
+|   |   |       spr_crate1.png.meta
+|   |   |       spr_crate2.png
+|   |   |       spr_crate2.png.meta
+|   |   |       spr_crate3.png
+|   |   |       spr_crate3.png.meta
+|   |   |       spr_crate4.png
+|   |   |       spr_crate4.png.meta
+|   |   |       
+|   |   +---Bridge
+|   |   |       spr_wooden_bridge_horizontal.png
+|   |   |       spr_wooden_bridge_horizontal.png.meta
+|   |   |       spr_wooden_bridge_vertical.png
+|   |   |       spr_wooden_bridge_vertical.png.meta
+|   |   |       
+|   |   +---Chest
+|   |   |       spr_chest.png
+|   |   |       spr_chest.png.meta
+|   |   |       spr_small_chest.png
+|   |   |       spr_small_chest.png.meta
+|   |   |       
+|   |   \---Fences
+|   |           spr_back_front_fence_ending.png
+|   |           spr_back_front_fence_ending.png.meta
+|   |           spr_fence_Four-intersection.png
+|   |           spr_fence_Four-intersection.png.meta
+|   |           spr_front_fence.png
+|   |           spr_front_fence.png.meta
+|   |           spr_front_fence_back_three-intersection.png
+|   |           spr_front_fence_back_three-intersection.png.meta
+|   |           spr_front_fence_left_backcorner.png
+|   |           spr_front_fence_left_backcorner.png.meta
+|   |           spr_front_fence_left_corner.png
+|   |           spr_front_fence_left_corner.png.meta
+|   |           spr_front_fence_right_backcorner.png
+|   |           spr_front_fence_right_backcorner.png.meta
+|   |           spr_front_fence_right_corner.png
+|   |           spr_front_fence_right_corner.png.meta
+|   |           spr_front_fence_three-intersection.png
+|   |           spr_front_fence_three-intersection.png.meta
+|   |           spr_left_front_fence_ending.png
+|   |           spr_left_front_fence_ending.png.meta
+|   |           spr_left_side_fence_three-intersection.png
+|   |           spr_left_side_fence_three-intersection.png.meta
+|   |           spr_right_front_fence_ending.png
+|   |           spr_right_front_fence_ending.png.meta
+|   |           spr_right_side_fence_three-intersection.png
+|   |           spr_right_side_fence_three-intersection.png.meta
+|   |           spr_side_fence.png
+|   |           spr_side_fence.png.meta
+|   |           spr_up_front_fence_ending.png
+|   |           spr_up_front_fence_ending.png.meta
+|   |           
+|   +---PickUp
+|   |       Gold Coin Sprite Sheet.png
+|   |       Gold Coin Sprite Sheet.png.meta
+|   |       Heart Pickup.png
+|   |       Heart Pickup.png.meta
+|   |       Stamina Globe.png
+|   |       Stamina Globe.png.meta
+|   |       
+|   +---Player
+|   |   |   Side animations.meta
+|   |   |   
+|   |   \---Side animations
+|   |           spr_player_right_attack.png
+|   |           spr_player_right_attack.png.meta
+|   |           spr_player_right_hit.png
+|   |           spr_player_right_hit.png.meta
+|   |           spr_player_right_idle.png
+|   |           spr_player_right_idle.png.meta
+|   |           spr_player_right_walk.png
+|   |           spr_player_right_walk.png.meta
+|   |           
+|   +---UI
+|   |       Border Empty White Outline.png
+|   |       Border Empty White Outline.png.meta
+|   |       Border Empty.png
+|   |       Border Empty.png.meta
+|   |       Gixel SDF.asset
+|   |       Gixel SDF.asset.meta
+|   |       Gixel.ttf
+|   |       Gixel.ttf.meta
+|   |       GoldCoin_WithOutline.png
+|   |       GoldCoin_WithOutline.png.meta
+|   |       Health_Fill.png
+|   |       Health_Fill.png.meta
+|   |       Heart Empty.png
+|   |       Heart Empty.png.meta
+|   |       Heart Full.png
+|   |       Heart Full.png.meta
+|   |       Stamina Empty.png
+|   |       Stamina Empty.png.meta
+|   |       Stamina Full.png
+|   |       Stamina Full.png.meta
+|   |       
+|   +---Vegetation
+|   |       Bush.png
+|   |       Bush.png.meta
+|   |       Bush1.png
+|   |       Bush1.png.meta
+|   |       Leaf_Particle.png
+|   |       Leaf_Particle.png.meta
+|   |       spr_tree1.png
+|   |       spr_tree1.png.meta
+|   |       spr_tree2.png
+|   |       spr_tree2.png.meta
+|   |       spr_tree3.png
+|   |       spr_tree3.png.meta
+|   |       tree.png
+|   |       tree.png.meta
+|   |       tree1.png
+|   |       tree1.png.meta
+|   |       
+|   \---Weapons
+|       |   Arrow.png
+|       |   Arrow.png.meta
+|       |   Bow.png
+|       |   Bow.png.meta
+|       |   Slash Effect.meta
+|       |   Staff.png
+|       |   Staff.png.meta
+|       |   Sword.png
+|       |   Sword.png.meta
+|       |   
+|       \---Slash Effect
+|               Slash Effect.png
+|               Slash Effect.png.meta
+|               
++---TextMesh Pro
+|   |   Documentation.meta
+|   |   Examples & Extras.meta
+|   |   Fonts.meta
+|   |   Resources.meta
+|   |   Shaders.meta
+|   |   Sprites.meta
+|   |   
+|   +---Documentation
+|   |       TextMesh Pro User Guide 2016.pdf
+|   |       TextMesh Pro User Guide 2016.pdf.meta
+|   |       
+|   +---Examples & Extras
+|   |   |   Fonts.meta
+|   |   |   Materials.meta
+|   |   |   Prefabs.meta
+|   |   |   Resources.meta
+|   |   |   Scenes.meta
+|   |   |   Scripts.meta
+|   |   |   Sprites.meta
+|   |   |   Textures.meta
+|   |   |   
+|   |   +---Fonts
+|   |   |       Anton OFL.txt
+|   |   |       Anton OFL.txt.meta
+|   |   |       Anton.ttf
+|   |   |       Anton.ttf.meta
+|   |   |       Bangers - OFL.txt
+|   |   |       Bangers - OFL.txt.meta
+|   |   |       Bangers.ttf
+|   |   |       Bangers.ttf.meta
+|   |   |       Electronic Highway Sign.TTF
+|   |   |       Electronic Highway Sign.TTF.meta
+|   |   |       Oswald-Bold - OFL.txt
+|   |   |       Oswald-Bold - OFL.txt.meta
+|   |   |       Oswald-Bold.ttf
+|   |   |       Oswald-Bold.ttf.meta
+|   |   |       Roboto-Bold.ttf
+|   |   |       Roboto-Bold.ttf.meta
+|   |   |       
+|   |   +---Materials
+|   |   |       Crate - Surface Shader Scene.mat
+|   |   |       Crate - Surface Shader Scene.mat.meta
+|   |   |       Ground - Logo Scene.mat
+|   |   |       Ground - Logo Scene.mat.meta
+|   |   |       Ground - Surface Shader Scene.mat
+|   |   |       Ground - Surface Shader Scene.mat.meta
+|   |   |       Small Crate_diffuse.mat
+|   |   |       Small Crate_diffuse.mat.meta
+|   |   |       
+|   |   +---Prefabs
+|   |   |       Text Popup.prefab
+|   |   |       Text Popup.prefab.meta
+|   |   |       TextMeshPro - Prefab 1.prefab
+|   |   |       TextMeshPro - Prefab 1.prefab.meta
+|   |   |       TextMeshPro - Prefab 2.prefab
+|   |   |       TextMeshPro - Prefab 2.prefab.meta
+|   |   |       
+|   |   +---Resources
+|   |   |   |   Color Gradient Presets.meta
+|   |   |   |   Fonts & Materials.meta
+|   |   |   |   Sprite Assets.meta
+|   |   |   |   
+|   |   |   +---Color Gradient Presets
+|   |   |   |       Blue to Purple - Vertical.asset
+|   |   |   |       Blue to Purple - Vertical.asset.meta
+|   |   |   |       Dark to Light Green - Vertical.asset
+|   |   |   |       Dark to Light Green - Vertical.asset.meta
+|   |   |   |       Light to Dark Green - Vertical.asset
+|   |   |   |       Light to Dark Green - Vertical.asset.meta
+|   |   |   |       Yellow to Orange - Vertical.asset
+|   |   |   |       Yellow to Orange - Vertical.asset.meta
+|   |   |   |       
+|   |   |   +---Fonts & Materials
+|   |   |   |       Anton SDF - Drop Shadow.mat
+|   |   |   |       Anton SDF - Drop Shadow.mat.meta
+|   |   |   |       Anton SDF - Outline.mat
+|   |   |   |       Anton SDF - Outline.mat.meta
+|   |   |   |       Anton SDF - Sunny Days.mat
+|   |   |   |       Anton SDF - Sunny Days.mat.meta
+|   |   |   |       Anton SDF.asset
+|   |   |   |       Anton SDF.asset.meta
+|   |   |   |       Bangers SDF - Drop Shadow.mat
+|   |   |   |       Bangers SDF - Drop Shadow.mat.meta
+|   |   |   |       Bangers SDF - Outline.mat
+|   |   |   |       Bangers SDF - Outline.mat.meta
+|   |   |   |       Bangers SDF Glow.mat
+|   |   |   |       Bangers SDF Glow.mat.meta
+|   |   |   |       Bangers SDF Logo.mat
+|   |   |   |       Bangers SDF Logo.mat.meta
+|   |   |   |       Bangers SDF.asset
+|   |   |   |       Bangers SDF.asset.meta
+|   |   |   |       Electronic Highway Sign SDF.asset
+|   |   |   |       Electronic Highway Sign SDF.asset.meta
+|   |   |   |       LiberationSans SDF - Metalic Green.mat
+|   |   |   |       LiberationSans SDF - Metalic Green.mat.meta
+|   |   |   |       LiberationSans SDF - Overlay.mat
+|   |   |   |       LiberationSans SDF - Overlay.mat.meta
+|   |   |   |       LiberationSans SDF - Soft Mask.mat
+|   |   |   |       LiberationSans SDF - Soft Mask.mat.meta
+|   |   |   |       Oswald Bold SDF.asset
+|   |   |   |       Oswald Bold SDF.asset.meta
+|   |   |   |       Roboto-Bold SDF - Drop Shadow.mat
+|   |   |   |       Roboto-Bold SDF - Drop Shadow.mat.meta
+|   |   |   |       Roboto-Bold SDF - Surface.mat
+|   |   |   |       Roboto-Bold SDF - Surface.mat.meta
+|   |   |   |       Roboto-Bold SDF.asset
+|   |   |   |       Roboto-Bold SDF.asset.meta
+|   |   |   |       
+|   |   |   \---Sprite Assets
+|   |   |           Default Sprite Asset.asset
+|   |   |           Default Sprite Asset.asset.meta
+|   |   |           DropCap Numbers.asset
+|   |   |           DropCap Numbers.asset.meta
+|   |   |           
+|   |   +---Scenes
+|   |   |       01-  Single Line TextMesh Pro.unity
+|   |   |       01-  Single Line TextMesh Pro.unity.meta
+|   |   |       02 - Multi-line TextMesh Pro.unity
+|   |   |       02 - Multi-line TextMesh Pro.unity.meta
+|   |   |       03 - Line Justification.unity
+|   |   |       03 - Line Justification.unity.meta
+|   |   |       04 - Word Wrapping.unity
+|   |   |       04 - Word Wrapping.unity.meta
+|   |   |       05 - Style Tags.unity
+|   |   |       05 - Style Tags.unity.meta
+|   |   |       06 - Extra Rich Text Examples.unity
+|   |   |       06 - Extra Rich Text Examples.unity.meta
+|   |   |       07 - Superscript & Subscript Example.unity
+|   |   |       07 - Superscript & Subscript Example.unity.meta
+|   |   |       08 - Improved Text Alignment.unity
+|   |   |       08 - Improved Text Alignment.unity.meta
+|   |   |       09 - Margin Tag Example.unity
+|   |   |       09 - Margin Tag Example.unity.meta
+|   |   |       10 - Bullets & Numbered List Example.unity
+|   |   |       10 - Bullets & Numbered List Example.unity.meta
+|   |   |       11 - The Style Tag.unity
+|   |   |       11 - The Style Tag.unity.meta
+|   |   |       12 - Link Example.unity
+|   |   |       12 - Link Example.unity.meta
+|   |   |       12a - Text Interactions.unity
+|   |   |       12a - Text Interactions.unity.meta
+|   |   |       13 - Soft Hyphenation.unity
+|   |   |       13 - Soft Hyphenation.unity.meta
+|   |   |       14 - Multi Font & Sprites.unity
+|   |   |       14 - Multi Font & Sprites.unity.meta
+|   |   |       15 - Inline Graphics & Sprites.unity
+|   |   |       15 - Inline Graphics & Sprites.unity.meta
+|   |   |       16 - Linked text overflow mode example.unity
+|   |   |       16 - Linked text overflow mode example.unity.meta
+|   |   |       17 - Old Computer Terminal.unity
+|   |   |       17 - Old Computer Terminal.unity.meta
+|   |   |       18 - ScrollRect & Masking & Layout.unity
+|   |   |       18 - ScrollRect & Masking & Layout.unity.meta
+|   |   |       19 - Masking Texture & Soft Mask.unity
+|   |   |       19 - Masking Texture & Soft Mask.unity.meta
+|   |   |       20 - Input Field with Scrollbar.unity
+|   |   |       20 - Input Field with Scrollbar.unity.meta
+|   |   |       21 - Script Example.unity
+|   |   |       21 - Script Example.unity.meta
+|   |   |       22 - Basic Scripting Example.unity
+|   |   |       22 - Basic Scripting Example.unity.meta
+|   |   |       23 - Animating Vertex Attributes.unity
+|   |   |       23 - Animating Vertex Attributes.unity.meta
+|   |   |       24 - Surface Shader Example.unity
+|   |   |       24 - Surface Shader Example.unity.meta
+|   |   |       25 - Sunny Days Example.unity
+|   |   |       25 - Sunny Days Example.unity.meta
+|   |   |       26 - Dropdown Placeholder Example.unity
+|   |   |       26 - Dropdown Placeholder Example.unity.meta
+|   |   |       Benchmark (Floating Text).unity
+|   |   |       Benchmark (Floating Text).unity.meta
+|   |   |       
+|   |   +---Scripts
+|   |   |       Benchmark01.cs
+|   |   |       Benchmark01.cs.meta
+|   |   |       Benchmark01_UGUI.cs
+|   |   |       Benchmark01_UGUI.cs.meta
+|   |   |       Benchmark02.cs
+|   |   |       Benchmark02.cs.meta
+|   |   |       Benchmark03.cs
+|   |   |       Benchmark03.cs.meta
+|   |   |       Benchmark04.cs
+|   |   |       Benchmark04.cs.meta
+|   |   |       CameraController.cs
+|   |   |       CameraController.cs.meta
+|   |   |       ChatController.cs
+|   |   |       ChatController.cs.meta
+|   |   |       DropdownSample.cs
+|   |   |       DropdownSample.cs.meta
+|   |   |       EnvMapAnimator.cs
+|   |   |       EnvMapAnimator.cs.meta
+|   |   |       ObjectSpin.cs
+|   |   |       ObjectSpin.cs.meta
+|   |   |       ShaderPropAnimator.cs
+|   |   |       ShaderPropAnimator.cs.meta
+|   |   |       SimpleScript.cs
+|   |   |       SimpleScript.cs.meta
+|   |   |       SkewTextExample.cs
+|   |   |       SkewTextExample.cs.meta
+|   |   |       TeleType.cs
+|   |   |       TeleType.cs.meta
+|   |   |       TextConsoleSimulator.cs
+|   |   |       TextConsoleSimulator.cs.meta
+|   |   |       TextMeshProFloatingText.cs
+|   |   |       TextMeshProFloatingText.cs.meta
+|   |   |       TextMeshSpawner.cs
+|   |   |       TextMeshSpawner.cs.meta
+|   |   |       TMPro_InstructionOverlay.cs
+|   |   |       TMPro_InstructionOverlay.cs.meta
+|   |   |       TMP_DigitValidator.cs
+|   |   |       TMP_DigitValidator.cs.meta
+|   |   |       TMP_ExampleScript_01.cs
+|   |   |       TMP_ExampleScript_01.cs.meta
+|   |   |       TMP_FrameRateCounter.cs
+|   |   |       TMP_FrameRateCounter.cs.meta
+|   |   |       TMP_PhoneNumberValidator.cs
+|   |   |       TMP_PhoneNumberValidator.cs.meta
+|   |   |       TMP_TextEventCheck.cs
+|   |   |       TMP_TextEventCheck.cs.meta
+|   |   |       TMP_TextEventHandler.cs
+|   |   |       TMP_TextEventHandler.cs.meta
+|   |   |       TMP_TextInfoDebugTool.cs
+|   |   |       TMP_TextInfoDebugTool.cs.meta
+|   |   |       TMP_TextSelector_A.cs
+|   |   |       TMP_TextSelector_A.cs.meta
+|   |   |       TMP_TextSelector_B.cs
+|   |   |       TMP_TextSelector_B.cs.meta
+|   |   |       TMP_UiFrameRateCounter.cs
+|   |   |       TMP_UiFrameRateCounter.cs.meta
+|   |   |       VertexColorCycler.cs
+|   |   |       VertexColorCycler.cs.meta
+|   |   |       VertexJitter.cs
+|   |   |       VertexJitter.cs.meta
+|   |   |       VertexShakeA.cs
+|   |   |       VertexShakeA.cs.meta
+|   |   |       VertexShakeB.cs
+|   |   |       VertexShakeB.cs.meta
+|   |   |       VertexZoom.cs
+|   |   |       VertexZoom.cs.meta
+|   |   |       WarpTextExample.cs
+|   |   |       WarpTextExample.cs.meta
+|   |   |       
+|   |   +---Sprites
+|   |   |       Default Sprites.png
+|   |   |       Default Sprites.png.meta
+|   |   |       DropCap Numbers.psd
+|   |   |       DropCap Numbers.psd.meta
+|   |   |       
+|   |   \---Textures
+|   |           Brushed Metal 3.jpg
+|   |           Brushed Metal 3.jpg.meta
+|   |           Floor Cement.jpg
+|   |           Floor Cement.jpg.meta
+|   |           Floor Tiles 1 - diffuse.jpg
+|   |           Floor Tiles 1 - diffuse.jpg.meta
+|   |           Fruit Jelly (B&W).jpg
+|   |           Fruit Jelly (B&W).jpg.meta
+|   |           Gradient Diagonal (Color).jpg
+|   |           Gradient Diagonal (Color).jpg.meta
+|   |           Gradient Horizontal (Color).jpg
+|   |           Gradient Horizontal (Color).jpg.meta
+|   |           Gradient Vertical (Color).jpg
+|   |           Gradient Vertical (Color).jpg.meta
+|   |           Mask Zig-n-Zag.psd
+|   |           Mask Zig-n-Zag.psd.meta
+|   |           Small Crate_diffuse.jpg
+|   |           Small Crate_diffuse.jpg.meta
+|   |           Small Crate_normal.jpg
+|   |           Small Crate_normal.jpg.meta
+|   |           Sunny Days - Seamless.jpg
+|   |           Sunny Days - Seamless.jpg.meta
+|   |           Text Overflow - Linked Text Image 1.png
+|   |           Text Overflow - Linked Text Image 1.png.meta
+|   |           Text Overflow - Linked Text UI Screenshot.png
+|   |           Text Overflow - Linked Text UI Screenshot.png.meta
+|   |           Wipe Pattern - Circle.psd
+|   |           Wipe Pattern - Circle.psd.meta
+|   |           Wipe Pattern - Diagonal.psd
+|   |           Wipe Pattern - Diagonal.psd.meta
+|   |           Wipe Pattern - Radial Double.psd
+|   |           Wipe Pattern - Radial Double.psd.meta
+|   |           Wipe Pattern - Radial Quad.psd
+|   |           Wipe Pattern - Radial Quad.psd.meta
+|   |           
+|   +---Fonts
+|   |       LiberationSans - OFL.txt
+|   |       LiberationSans - OFL.txt.meta
+|   |       LiberationSans.ttf
+|   |       LiberationSans.ttf.meta
+|   |       
+|   +---Resources
+|   |   |   Fonts & Materials.meta
+|   |   |   LineBreaking Following Characters.txt
+|   |   |   LineBreaking Following Characters.txt.meta
+|   |   |   LineBreaking Leading Characters.txt
+|   |   |   LineBreaking Leading Characters.txt.meta
+|   |   |   Sprite Assets.meta
+|   |   |   Style Sheets.meta
+|   |   |   TMP Settings.asset
+|   |   |   TMP Settings.asset.meta
+|   |   |   
+|   |   +---Fonts & Materials
+|   |   |       LiberationSans SDF - Drop Shadow.mat
+|   |   |       LiberationSans SDF - Drop Shadow.mat.meta
+|   |   |       LiberationSans SDF - Fallback.asset
+|   |   |       LiberationSans SDF - Fallback.asset.meta
+|   |   |       LiberationSans SDF - Outline.mat
+|   |   |       LiberationSans SDF - Outline.mat.meta
+|   |   |       LiberationSans SDF.asset
+|   |   |       LiberationSans SDF.asset.meta
+|   |   |       
+|   |   +---Sprite Assets
+|   |   |       EmojiOne.asset
+|   |   |       EmojiOne.asset.meta
+|   |   |       
+|   |   \---Style Sheets
+|   |           Default Style Sheet.asset
+|   |           Default Style Sheet.asset.meta
+|   |           
+|   +---Shaders
+|   |       TMPro.cginc
+|   |       TMPro.cginc.meta
+|   |       TMPro_Mobile.cginc
+|   |       TMPro_Mobile.cginc.meta
+|   |       TMPro_Properties.cginc
+|   |       TMPro_Properties.cginc.meta
+|   |       TMPro_Surface.cginc
+|   |       TMPro_Surface.cginc.meta
+|   |       TMP_Bitmap-Custom-Atlas.shader
+|   |       TMP_Bitmap-Custom-Atlas.shader.meta
+|   |       TMP_Bitmap-Mobile.shader
+|   |       TMP_Bitmap-Mobile.shader.meta
+|   |       TMP_Bitmap.shader
+|   |       TMP_Bitmap.shader.meta
+|   |       TMP_SDF Overlay.shader
+|   |       TMP_SDF Overlay.shader.meta
+|   |       TMP_SDF SSD.shader
+|   |       TMP_SDF SSD.shader.meta
+|   |       TMP_SDF-Mobile Masking.shader
+|   |       TMP_SDF-Mobile Masking.shader.meta
+|   |       TMP_SDF-Mobile Overlay.shader
+|   |       TMP_SDF-Mobile Overlay.shader.meta
+|   |       TMP_SDF-Mobile SSD.shader
+|   |       TMP_SDF-Mobile SSD.shader.meta
+|   |       TMP_SDF-Mobile.shader
+|   |       TMP_SDF-Mobile.shader.meta
+|   |       TMP_SDF-Surface-Mobile.shader
+|   |       TMP_SDF-Surface-Mobile.shader.meta
+|   |       TMP_SDF-Surface.shader
+|   |       TMP_SDF-Surface.shader.meta
+|   |       TMP_SDF.shader
+|   |       TMP_SDF.shader.meta
+|   |       TMP_Sprite.shader
+|   |       TMP_Sprite.shader.meta
+|   |       
+|   \---Sprites
+|           EmojiOne Attribution.txt
+|           EmojiOne Attribution.txt.meta
+|           EmojiOne.json
+|           EmojiOne.json.meta
+|           EmojiOne.png
+|           EmojiOne.png.meta
+|           
++---Tilemap
+|   |   decor_16x16.png
+|   |   decor_16x16.png.meta
+|   |   grass.png
+|   |   grass.png.meta
+|   |   New Palette.prefab
+|   |   New Palette.prefab.meta
+|   |   New Sprite Atlas.spriteatlas
+|   |   New Sprite Atlas.spriteatlas.meta
+|   |   plains.png
+|   |   plains.png.meta
+|   |   Rules.meta
+|   |   Tile Top.png
+|   |   Tile Top.png.meta
+|   |   Tiles.meta
+|   |   Water Tiles anim.png
+|   |   Water Tiles anim.png.meta
+|   |   Water Tiles.png
+|   |   Water Tiles.png.meta
+|   |   
+|   +---Rules
+|   |       Cosmetic.asset
+|   |       Cosmetic.asset.meta
+|   |       Foreground.asset
+|   |       Foreground.asset.meta
+|   |       Top.asset
+|   |       Top.asset.meta
+|   |       Water.asset
+|   |       Water.asset.meta
+|   |       
+|   \---Tiles
+|           decor_16x16_0.asset
+|           decor_16x16_0.asset.meta
+|           decor_16x16_1.asset
+|           decor_16x16_1.asset.meta
+|           decor_16x16_2.asset
+|           decor_16x16_2.asset.meta
+|           decor_16x16_3.asset
+|           decor_16x16_3.asset.meta
+|           grass.asset
+|           grass.asset.meta
+|           plains_0.asset
+|           plains_0.asset.meta
+|           plains_1.asset
+|           plains_1.asset.meta
+|           plains_10.asset
+|           plains_10.asset.meta
+|           plains_11.asset
+|           plains_11.asset.meta
+|           plains_12.asset
+|           plains_12.asset.meta
+|           plains_13.asset
+|           plains_13.asset.meta
+|           plains_14.asset
+|           plains_14.asset.meta
+|           plains_15.asset
+|           plains_15.asset.meta
+|           plains_16.asset
+|           plains_16.asset.meta
+|           plains_17.asset
+|           plains_17.asset.meta
+|           plains_18.asset
+|           plains_18.asset.meta
+|           plains_19.asset
+|           plains_19.asset.meta
+|           plains_2.asset
+|           plains_2.asset.meta
+|           plains_20.asset
+|           plains_20.asset.meta
+|           plains_21.asset
+|           plains_21.asset.meta
+|           plains_22.asset
+|           plains_22.asset.meta
+|           plains_23.asset
+|           plains_23.asset.meta
+|           plains_24.asset
+|           plains_24.asset.meta
+|           plains_25.asset
+|           plains_25.asset.meta
+|           plains_26.asset
+|           plains_26.asset.meta
+|           plains_27.asset
+|           plains_27.asset.meta
+|           plains_28.asset
+|           plains_28.asset.meta
+|           plains_29.asset
+|           plains_29.asset.meta
+|           plains_3.asset
+|           plains_3.asset.meta
+|           plains_30.asset
+|           plains_30.asset.meta
+|           plains_31.asset
+|           plains_31.asset.meta
+|           plains_32.asset
+|           plains_32.asset.meta
+|           plains_33.asset
+|           plains_33.asset.meta
+|           plains_34.asset
+|           plains_34.asset.meta
+|           plains_35.asset
+|           plains_35.asset.meta
+|           plains_36.asset
+|           plains_36.asset.meta
+|           plains_37.asset
+|           plains_37.asset.meta
+|           plains_38.asset
+|           plains_38.asset.meta
+|           plains_39.asset
+|           plains_39.asset.meta
+|           plains_4.asset
+|           plains_4.asset.meta
+|           plains_40.asset
+|           plains_40.asset.meta
+|           plains_41.asset
+|           plains_41.asset.meta
+|           plains_42.asset
+|           plains_42.asset.meta
+|           plains_43.asset
+|           plains_43.asset.meta
+|           plains_5.asset
+|           plains_5.asset.meta
+|           plains_6.asset
+|           plains_6.asset.meta
+|           plains_7.asset
+|           plains_7.asset.meta
+|           plains_8.asset
+|           plains_8.asset.meta
+|           plains_9.asset
+|           plains_9.asset.meta
+|           Water Tiles_0.asset
+|           Water Tiles_0.asset.meta
+|           Water Tiles_1.asset
+|           Water Tiles_1.asset.meta
+|           Water Tiles_10.asset
+|           Water Tiles_10.asset.meta
+|           Water Tiles_11.asset
+|           Water Tiles_11.asset.meta
+|           Water Tiles_12.asset
+|           Water Tiles_12.asset.meta
+|           Water Tiles_13.asset
+|           Water Tiles_13.asset.meta
+|           Water Tiles_14.asset
+|           Water Tiles_14.asset.meta
+|           Water Tiles_15.asset
+|           Water Tiles_15.asset.meta
+|           Water Tiles_16.asset
+|           Water Tiles_16.asset.meta
+|           Water Tiles_17.asset
+|           Water Tiles_17.asset.meta
+|           Water Tiles_18.asset
+|           Water Tiles_18.asset.meta
+|           Water Tiles_19.asset
+|           Water Tiles_19.asset.meta
+|           Water Tiles_2.asset
+|           Water Tiles_2.asset.meta
+|           Water Tiles_20.asset
+|           Water Tiles_20.asset.meta
+|           Water Tiles_21.asset
+|           Water Tiles_21.asset.meta
+|           Water Tiles_22.asset
+|           Water Tiles_22.asset.meta
+|           Water Tiles_23.asset
+|           Water Tiles_23.asset.meta
+|           Water Tiles_24.asset
+|           Water Tiles_24.asset.meta
+|           Water Tiles_25.asset
+|           Water Tiles_25.asset.meta
+|           Water Tiles_26.asset
+|           Water Tiles_26.asset.meta
+|           Water Tiles_27.asset
+|           Water Tiles_27.asset.meta
+|           Water Tiles_28.asset
+|           Water Tiles_28.asset.meta
+|           Water Tiles_29.asset
+|           Water Tiles_29.asset.meta
+|           Water Tiles_3.asset
+|           Water Tiles_3.asset.meta
+|           Water Tiles_30.asset
+|           Water Tiles_30.asset.meta
+|           Water Tiles_31.asset
+|           Water Tiles_31.asset.meta
+|           Water Tiles_32.asset
+|           Water Tiles_32.asset.meta
+|           Water Tiles_4.asset
+|           Water Tiles_4.asset.meta
+|           Water Tiles_5.asset
+|           Water Tiles_5.asset.meta
+|           Water Tiles_6.asset
+|           Water Tiles_6.asset.meta
+|           Water Tiles_7.asset
+|           Water Tiles_7.asset.meta
+|           Water Tiles_8.asset
+|           Water Tiles_8.asset.meta
+|           Water Tiles_9.asset
+|           Water Tiles_9.asset.meta
+|           
+\---UI
+        Bow.png
+        Bow.png.meta
+        Box.png
+        Box.png.meta
+        BoxWhiteOutline.png
+        BoxWhiteOutline.png.meta
+        Staff.png
+        Staff.png.meta
+        Sword.png
+        Sword.png.meta
+        
