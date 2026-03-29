@@ -1,10 +1,12 @@
+# 🎮 2D Top-Down RPG | Unity Game Project
+
 A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI, weapon systems, and modular game architecture.
 
 ---
 
 ## 🚀 Demo
 
-### Gif Preview ·
+### Gif Preview 
 
 ### Menu preview
 <img width="1021" height="464" alt="image" src="https://github.com/user-attachments/assets/b4bec5fa-37e2-4226-bede-cb6579055acd" />
