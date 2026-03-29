@@ -1,4 +1,4 @@
-# 🎮 2D Top-Down RPG Game (Unity)
+<img width="899" height="383" alt="image" src="https://github.com/user-attachments/assets/7024ea36-64ad-4e17-bd76-11ec64b5e585" /># 🎮 2D Top-Down RPG Game (Unity)
 
 A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI, weapon systems, and modular game architecture.
 
@@ -6,8 +6,14 @@ A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI,
 
 ## 🚀 Demo
 
-🎥 Gameplay Video: (add your video link here)  
-📦 Download Build: (add Google Drive / itch.io link)
+### Gif Preview ·
+
+### Menu preview
+<img width="1021" height="464" alt="image" src="https://github.com/user-attachments/assets/b4bec5fa-37e2-4226-bede-cb6579055acd" />
+### Scene1 preview
+<img width="1062" height="458" alt="image" src="https://github.com/user-attachments/assets/7728ef6e-bea1-4e67-8c5a-cd6ee552b871" />
+### Boss fight·
+<img width="988" height="466" alt="image" src="https://github.com/user-attachments/assets/a2d83d7b-64d6-45bb-8693-443670fd37c1" />
 
 ---
 
