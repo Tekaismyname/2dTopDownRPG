@@ -1,5 +1,3 @@
-<img width="899" height="383" alt="image" src="https://github.com/user-attachments/assets/7024ea36-64ad-4e17-bd76-11ec64b5e585" /># 🎮 2D Top-Down RPG Game (Unity)
-
 A 2D top-down RPG game developed using Unity, featuring player combat, enemy AI, weapon systems, and modular game architecture.
 
 ---
