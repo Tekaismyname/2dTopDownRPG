@@ -7,6 +7,8 @@ public class GameOverUI : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
 
+    
+
     private void Start()
     {
         if (gameOverPanel != null)

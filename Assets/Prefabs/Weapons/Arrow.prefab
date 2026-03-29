@@ -254,7 +254,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
 --- !u!114 &6695712723622675639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 22
   particleOnHitPrefabVFX: {fileID: 4773245419375888786, guid: 85cecf754d3ea13429f06fda6937316d, type: 3}
+  isEnemyProjectile: 0
+  projectileRange: 10
 --- !u!114 &8950048226759960487
 MonoBehaviour:
   m_ObjectHideFlags: 0

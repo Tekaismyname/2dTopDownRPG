@@ -10,6 +10,7 @@ public class VictoryUI : MonoBehaviour
 
     private void Start()
     {
+        
         if (victoryPanel != null)
         {
             victoryPanel.SetActive(false);
@@ -30,11 +31,13 @@ public class VictoryUI : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(nextSceneName);
+        victoryPanel.SetActive(false);
     }
 
     public void BackToMainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+        victoryPanel.SetActive(false);
     }
 }

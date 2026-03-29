@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 3365186325622934605}
   - component: {fileID: 1146533300917393243}
   - component: {fileID: -7616341352446684318}
+  - component: {fileID: -7053297555322073755}
   m_Layer: 0
   m_Name: Ghost Boss
   m_TagString: Untagged
@@ -348,3 +349,24 @@ MonoBehaviour:
   goldCoin: {fileID: 1451370306678278486, guid: 7f63246c2a32c414cb9c61ac3ac7d1a0, type: 3}
   healthGlobe: {fileID: 1451370306678278486, guid: ca69f6a3bd744de42aff0fd4c43fc930, type: 3}
   staminaGlobe: {fileID: 1451370306678278486, guid: e5f7042293b74df469f18257ec297ec9, type: 3}
+--- !u!95 &-7053297555322073755
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3285565182207429012}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

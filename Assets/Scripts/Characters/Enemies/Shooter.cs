@@ -15,24 +15,35 @@ public class Shooter : MonoBehaviour, IEnemy
     [Tooltip("Stagger must be enabled for oscillate to function properly.")]
     [SerializeField] private bool oscillate;
     private float restTime;
-
+    private Animator animator;
     private bool isShooting = false;
 
-    private void OnValidate() {
-        if(oscillate) {stagger = true;}
-        if(!oscillate) {stagger = false;}
-        if(projectilePerBurst < 1) {projectilePerBurst = 1;}
-        if(burstCount < 1) {burstCount = 1;}
-        if(timeBetweenBurst < 0.1f) {timeBetweenBurst = 0.1f;}
-        if(restTime < 0.1f) {restTime = 0.1f;}
-        if(startingDistance < 0.1f) {startingDistance = 0.1f;}
-        if(angleSpread == 0) {projectilePerBurst = 1;}
-        if(bulletMoveSpeed <= 0) {bulletMoveSpeed = 0;}
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    private void OnValidate()
+    {
+        if (oscillate) { stagger = true; }
+        if (!oscillate) { stagger = false; }
+        if (projectilePerBurst < 1) { projectilePerBurst = 1; }
+        if (burstCount < 1) { burstCount = 1; }
+        if (timeBetweenBurst < 0.1f) { timeBetweenBurst = 0.1f; }
+        if (restTime < 0.1f) { restTime = 0.1f; }
+        if (startingDistance < 0.1f) { startingDistance = 0.1f; }
+        if (angleSpread == 0) { projectilePerBurst = 1; }
+        if (bulletMoveSpeed <= 0) { bulletMoveSpeed = 0; }
     }
     public void Attack()
     {
         if (!isShooting)
         {
+            if(animator != null)
+            {
+                animator.SetTrigger("Attack");
+            }
+
             StartCoroutine(ShootRoutine());
         }
     }

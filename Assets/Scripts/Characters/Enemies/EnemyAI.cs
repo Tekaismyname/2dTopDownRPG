@@ -75,13 +75,13 @@ public class EnemyAI : MonoBehaviour
 
         if(attackRange != 0 && canAttack){
             canAttack = false;
-            (enemyType as IEnemy).Attack();
+            (enemyType as IEnemy)?.Attack();
             if(stopMovingWhileAttacking){
                 enemyPathFinding.StopMoving();
             }
             else
             {
-                enemyPathFinding.MoveTo(roamPostion);
+                enemyPathFinding.MoveTo(PlayerController.Instance.transform.position);
             }
 
             StartCoroutine(AttackCooldownRoutine());

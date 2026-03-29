@@ -2,6 +2,8 @@ Folder PATH listing for volume Teka
 Volume serial number is DC12-2654
 C:.
 |   Animations.meta
+|   flipImage.cs
+|   flipImage.cs.meta
 |   Materials.meta
 |   Prefabs.meta
 |   Scenes.meta
@@ -10,6 +12,7 @@ C:.
 |   Settings.meta
 |   Sprites.meta
 |   structure.txt
+|   structure.txt.meta
 |   TextMesh Pro.meta
 |   Tilemap.meta
 |   UI.meta
@@ -17,21 +20,14 @@ C:.
 |   UniversalRenderPipelineGlobalSettings.asset.meta
 |   
 +---Animations
-|   |   Blue Slime.meta
 |   |   Bow.meta
+|   |   Enemies.meta
 |   |   Gold Coin.meta
-|   |   Grape.meta
 |   |   Player.meta
 |   |   Staff.meta
 |   |   Sword.meta
 |   |   Torche.meta
 |   |   
-|   +---Blue Slime
-|   |       Blue Slime.anim
-|   |       Blue Slime.anim.meta
-|   |       Blue Slime.controller
-|   |       Blue Slime.controller.meta
-|   |       
 |   +---Bow
 |   |       Attack.anim
 |   |       Attack.anim.meta
@@ -40,19 +36,95 @@ C:.
 |   |       Bow0.anim
 |   |       Bow0.anim.meta
 |   |       
+|   +---Enemies
+|   |   |   Blue Slime.meta
+|   |   |   Goblin.meta
+|   |   |   Grape.meta
+|   |   |   Skeleton.meta
+|   |   |   
+|   |   +---Blue Slime
+|   |   |       Blue Slime Attack.anim
+|   |   |       Blue Slime Attack.anim.meta
+|   |   |       Blue Slime Death.anim
+|   |   |       Blue Slime Death.anim.meta
+|   |   |       Blue Slime Hurt.anim
+|   |   |       Blue Slime Hurt.anim.meta
+|   |   |       Blue Slime Walk.anim
+|   |   |       Blue Slime Walk.anim.meta
+|   |   |       Blue Slime.anim
+|   |   |       Blue Slime.anim.meta
+|   |   |       Blue Slime.controller
+|   |   |       Blue Slime.controller.meta
+|   |   |       spr_Blue_slime_attack_0.controller
+|   |   |       spr_Blue_slime_attack_0.controller.meta
+|   |   |       spr_Blue_slime_death_0.controller
+|   |   |       spr_Blue_slime_death_0.controller.meta
+|   |   |       spr_Blue_slime_hurt_without_filter_0.controller
+|   |   |       spr_Blue_slime_hurt_without_filter_0.controller.meta
+|   |   |       spr_Blue_slime_walk_0.controller
+|   |   |       spr_Blue_slime_walk_0.controller.meta
+|   |   |       
+|   |   +---Goblin
+|   |   |       Goblin.controller
+|   |   |       Goblin.controller.meta
+|   |   |       Goblin_Attack.anim
+|   |   |       Goblin_Attack.anim.meta
+|   |   |       Goblin_Death.anim
+|   |   |       Goblin_Death.anim.meta
+|   |   |       Goblin_Hurt.anim
+|   |   |       Goblin_Hurt.anim.meta
+|   |   |       Goblin_Idle.anim
+|   |   |       Goblin_Idle.anim.meta
+|   |   |       Goblin_Walk.anim
+|   |   |       Goblin_Walk.anim.meta
+|   |   |       spr_Goblin_Attack_0.controller
+|   |   |       spr_Goblin_Attack_0.controller.meta
+|   |   |       spr_Goblin_Death_0.controller
+|   |   |       spr_Goblin_Death_0.controller.meta
+|   |   |       spr_Goblin_Hurt_0.controller
+|   |   |       spr_Goblin_Hurt_0.controller.meta
+|   |   |       spr_Goblin_Idle_0.controller
+|   |   |       spr_Goblin_Idle_0.controller.meta
+|   |   |       spr_Goblin_Walk_0.controller
+|   |   |       spr_Goblin_Walk_0.controller.meta
+|   |   |       
+|   |   +---Grape
+|   |   |       Attacking.anim
+|   |   |       Attacking.anim.meta
+|   |   |       Grape.controller
+|   |   |       Grape.controller.meta
+|   |   |       Walking.anim
+|   |   |       Walking.anim.meta
+|   |   |       
+|   |   \---Skeleton
+|   |           Skeleton Attack.anim
+|   |           Skeleton Attack.anim.meta
+|   |           Skeleton Death.anim
+|   |           Skeleton Death.anim.meta
+|   |           Skeleton Hurt.anim
+|   |           Skeleton Hurt.anim.meta
+|   |           Skeleton Idle.anim
+|   |           Skeleton Idle.anim.meta
+|   |           Skeleton Walk.anim
+|   |           Skeleton Walk.anim.meta
+|   |           Skeleton.controller
+|   |           Skeleton.controller.meta
+|   |           spr_Sekeleton_Attack_0.controller
+|   |           spr_Sekeleton_Attack_0.controller.meta
+|   |           spr_Sekeleton_Death_0.controller
+|   |           spr_Sekeleton_Death_0.controller.meta
+|   |           spr_Sekeleton_Hurt_0.controller
+|   |           spr_Sekeleton_Hurt_0.controller.meta
+|   |           spr_Sekeleton_Idle_0.controller
+|   |           spr_Sekeleton_Idle_0.controller.meta
+|   |           spr_Sekeleton_Walk_0.controller
+|   |           spr_Sekeleton_Walk_0.controller.meta
+|   |           
 |   +---Gold Coin
 |   |       Gold Coin.controller
 |   |       Gold Coin.controller.meta
 |   |       Gold Coin0.anim
 |   |       Gold Coin0.anim.meta
-|   |       
-|   +---Grape
-|   |       Attacking.anim
-|   |       Attacking.anim.meta
-|   |       Grape.controller
-|   |       Grape.controller.meta
-|   |       Walking.anim
-|   |       Walking.anim.meta
 |   |       
 |   +---Player
 |   |       Dealth.anim
@@ -156,6 +228,7 @@ C:.
 |   |   Tree5.prefab.meta
 |   |   Twinkle.prefab
 |   |   Twinkle.prefab.meta
+|   |   UI.meta
 |   |   VFX.meta
 |   |   Weapons.meta
 |   |   
@@ -166,8 +239,12 @@ C:.
 |   |       Ghost Boss.prefab.meta
 |   |       Ghost.prefab
 |   |       Ghost.prefab.meta
+|   |       goblin.prefab
+|   |       goblin.prefab.meta
 |   |       Grape.prefab
 |   |       Grape.prefab.meta
+|   |       sekeleton.prefab
+|   |       sekeleton.prefab.meta
 |   |       
 |   +---Pickup items
 |   |       Gold Coin.prefab
@@ -187,6 +264,16 @@ C:.
 |   |       UI Canvas.prefab
 |   |       UI Canvas.prefab.meta
 |   |       
+|   +---UI
+|   |       GameOverManager.prefab
+|   |       GameOverManager.prefab.meta
+|   |       MainMenuCanva.prefab
+|   |       MainMenuCanva.prefab.meta
+|   |       MainMenuManager.prefab
+|   |       MainMenuManager.prefab.meta
+|   |       PauseMenuManager.prefab
+|   |       PauseMenuManager.prefab.meta
+|   |       
 |   +---VFX
 |   |       Arrow VFX.prefab
 |   |       Arrow VFX.prefab.meta
@@ -200,6 +287,8 @@ C:.
 |   |       Death VFX.prefab.meta
 |   |       Ghost Death VFX.prefab
 |   |       Ghost Death VFX.prefab.meta
+|   |       Goblin Death VFX.prefab
+|   |       Goblin Death VFX.prefab.meta
 |   |       Magic VFX.prefab
 |   |       Magic VFX.prefab.meta
 |   |       Portal VFX.prefab
@@ -230,6 +319,8 @@ C:.
 |           Sword.prefab.meta
 |           
 +---Scenes
+|   |   MainMenu.unity
+|   |   MainMenu.unity.meta
 |   |   Scene1.meta
 |   |   Scene1.unity
 |   |   Scene1.unity.meta
@@ -268,6 +359,8 @@ C:.
 |   |   |       EnemyAI.cs.meta
 |   |   |       EnemyHealth.cs
 |   |   |       EnemyHealth.cs.meta
+|   |   |       EnemyMelee.cs
+|   |   |       EnemyMelee.cs.meta
 |   |   |       EnemyPathFinding.cs
 |   |   |       EnemyPathFinding.cs.meta
 |   |   |       Grape.cs
@@ -340,13 +433,24 @@ C:.
 |   |       PickupSpawner.cs.meta
 |   |       
 |   +---UI
-|   |       ActiveInventory.cs
-|   |       ActiveInventory.cs.meta
-|   |       Indestructible.cs
-|   |       Indestructible.cs.meta
-|   |       SpriteFade.cs
-|   |       SpriteFade.cs.meta
-|   |       
+|   |   |   ActiveInventory.cs
+|   |   |   ActiveInventory.cs.meta
+|   |   |   Indestructible.cs
+|   |   |   Indestructible.cs.meta
+|   |   |   Menu.meta
+|   |   |   SpriteFade.cs
+|   |   |   SpriteFade.cs.meta
+|   |   |   
+|   |   \---Menu
+|   |           GameOverUI.cs
+|   |           GameOverUI.cs.meta
+|   |           MainMenuUI.cs
+|   |           MainMenuUI.cs.meta
+|   |           PauseMenuUI.cs
+|   |           PauseMenuUI.cs.meta
+|   |           VictoryUI.cs
+|   |           VictoryUI.cs.meta
+|   |           
 |   \---Weapons
 |       |   ActiveWeapon.cs
 |       |   ActiveWeapon.cs.meta
@@ -388,15 +492,13 @@ C:.
 |           URP2DSceneTemplate.unity.meta
 |           
 +---Sprites
-|   |   Blue Slime.meta
 |   |   Bullet.png
 |   |   Bullet.png.meta
 |   |   Cursor.png
 |   |   Cursor.png.meta
+|   |   Enemies.meta
 |   |   Gem.png
 |   |   Gem.png.meta
-|   |   Ghost.meta
-|   |   Grape.meta
 |   |   Magic Laser.png
 |   |   Magic Laser.png.meta
 |   |   Objects and buildings.meta
@@ -412,49 +514,84 @@ C:.
 |   |   Vegetation.meta
 |   |   Weapons.meta
 |   |   
-|   +---Blue Slime
-|   |   |   shadowless.meta
-|   |   |   spr_Blue_slime_attack.png
-|   |   |   spr_Blue_slime_attack.png.meta
-|   |   |   spr_Blue_slime_death.png
-|   |   |   spr_Blue_slime_death.png.meta
-|   |   |   spr_Blue_slime_hurt.png
-|   |   |   spr_Blue_slime_hurt.png.meta
-|   |   |   spr_Blue_slime_hurt_without_filter.png
-|   |   |   spr_Blue_slime_hurt_without_filter.png.meta
-|   |   |   spr_Blue_slime_idle.png
-|   |   |   spr_Blue_slime_idle.png.meta
-|   |   |   spr_Blue_slime_walk.png
-|   |   |   spr_Blue_slime_walk.png.meta
+|   +---Enemies
+|   |   |   Blue Slime.meta
+|   |   |   Ghost.meta
+|   |   |   Goblin.meta
+|   |   |   Grape.meta
+|   |   |   Skeleton.meta
 |   |   |   
-|   |   \---shadowless
-|   |           spr_Blue_slime_attack_shadowless.png
-|   |           spr_Blue_slime_attack_shadowless.png.meta
-|   |           spr_Blue_slime_hurt_shadowless.png
-|   |           spr_Blue_slime_hurt_shadowless.png.meta
-|   |           spr_Blue_slime_idle_shadowless.png
-|   |           spr_Blue_slime_idle_shadowless.png.meta
-|   |           spr_Blue_slime_walk_shadowless.png
-|   |           spr_Blue_slime_walk_shadowless.png.meta
+|   |   +---Blue Slime
+|   |   |   |   shadowless.meta
+|   |   |   |   spr_Blue_slime_attack.png
+|   |   |   |   spr_Blue_slime_attack.png.meta
+|   |   |   |   spr_Blue_slime_death.png
+|   |   |   |   spr_Blue_slime_death.png.meta
+|   |   |   |   spr_Blue_slime_hurt.png
+|   |   |   |   spr_Blue_slime_hurt.png.meta
+|   |   |   |   spr_Blue_slime_hurt_without_filter.png
+|   |   |   |   spr_Blue_slime_hurt_without_filter.png.meta
+|   |   |   |   spr_Blue_slime_idle.png
+|   |   |   |   spr_Blue_slime_idle.png.meta
+|   |   |   |   spr_Blue_slime_walk.png
+|   |   |   |   spr_Blue_slime_walk.png.meta
+|   |   |   |   
+|   |   |   \---shadowless
+|   |   |           spr_Blue_slime_attack_shadowless.png
+|   |   |           spr_Blue_slime_attack_shadowless.png.meta
+|   |   |           spr_Blue_slime_hurt_shadowless.png
+|   |   |           spr_Blue_slime_hurt_shadowless.png.meta
+|   |   |           spr_Blue_slime_idle_shadowless.png
+|   |   |           spr_Blue_slime_idle_shadowless.png.meta
+|   |   |           spr_Blue_slime_walk_shadowless.png
+|   |   |           spr_Blue_slime_walk_shadowless.png.meta
+|   |   |           
+|   |   +---Ghost
+|   |   |       Ghost.png
+|   |   |       Ghost.png.meta
+|   |   |       Shadows_Sheet.png
+|   |   |       Shadows_Sheet.png.meta
+|   |   |       
+|   |   +---Goblin
+|   |   |       goblin.png
+|   |   |       goblin.png.meta
+|   |   |       spr_Goblin_Attack.png
+|   |   |       spr_Goblin_Attack.png.meta
+|   |   |       spr_Goblin_Death.png
+|   |   |       spr_Goblin_Death.png.meta
+|   |   |       spr_Goblin_Hurt.png
+|   |   |       spr_Goblin_Hurt.png.meta
+|   |   |       spr_Goblin_Idle.png
+|   |   |       spr_Goblin_Idle.png.meta
+|   |   |       spr_Goblin_Walk.png
+|   |   |       spr_Goblin_Walk.png.meta
+|   |   |       
+|   |   +---Grape
+|   |   |       Grape Attack Sheet.png
+|   |   |       Grape Attack Sheet.png.meta
+|   |   |       Grape Projectile Splatter.png
+|   |   |       Grape Projectile Splatter.png.meta
+|   |   |       Grape Projectile.png
+|   |   |       Grape Projectile.png.meta
+|   |   |       Grape Walk Sheet.png
+|   |   |       Grape Walk Sheet.png.meta
+|   |   |       Shadows_Sheet.png
+|   |   |       Shadows_Sheet.png.meta
+|   |   |       
+|   |   \---Skeleton
+|   |           sekeleton.png
+|   |           sekeleton.png.meta
+|   |           spr_Sekeleton_Attack.png
+|   |           spr_Sekeleton_Attack.png.meta
+|   |           spr_Sekeleton_Death.png
+|   |           spr_Sekeleton_Death.png.meta
+|   |           spr_Sekeleton_Hurt.png
+|   |           spr_Sekeleton_Hurt.png.meta
+|   |           spr_Sekeleton_Idle.png
+|   |           spr_Sekeleton_Idle.png.meta
+|   |           spr_Sekeleton_Walk.png
+|   |           spr_Sekeleton_Walk.png.meta
 |   |           
-|   +---Ghost
-|   |       Ghost.png
-|   |       Ghost.png.meta
-|   |       Shadows_Sheet.png
-|   |       Shadows_Sheet.png.meta
-|   |       
-|   +---Grape
-|   |       Grape Attack Sheet.png
-|   |       Grape Attack Sheet.png.meta
-|   |       Grape Projectile Splatter.png
-|   |       Grape Projectile Splatter.png.meta
-|   |       Grape Projectile.png
-|   |       Grape Projectile.png.meta
-|   |       Grape Walk Sheet.png
-|   |       Grape Walk Sheet.png.meta
-|   |       Shadows_Sheet.png
-|   |       Shadows_Sheet.png.meta
-|   |       
 |   +---Objects and buildings
 |   |   |   Barrels and crates.meta
 |   |   |   Bridge.meta

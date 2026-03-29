@@ -505,9 +505,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0fe6d04f361b5438400684c002d41a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 9999
   knockBackThrustAmount: 10
-  damageRecoveryTime: 1
+  damageRecoveryTime: 0.2
 --- !u!114 &7736397003811142362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,3 +547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ae7b5fc86962d4a99e6bb99d993ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullStaminaImage: {fileID: 21300000, guid: 9f16ec2931ee8c54cafaf7c0b1d0b09e, type: 3}
+  emptyStaminaImage: {fileID: 21300000, guid: 83343bccca78cc04fbe1c0ca3f8b3d90, type: 3}
+  timeBetweenStaminaRefresh: 3

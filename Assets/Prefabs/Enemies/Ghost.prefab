@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 7730773084306322097}
   - component: {fileID: 5112955514714306967}
   - component: {fileID: -2554222390741461804}
+  - component: {fileID: 8839576319226131942}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -252,6 +253,27 @@ MonoBehaviour:
   goldCoin: {fileID: 1451370306678278486, guid: 7f63246c2a32c414cb9c61ac3ac7d1a0, type: 3}
   healthGlobe: {fileID: 1451370306678278486, guid: ca69f6a3bd744de42aff0fd4c43fc930, type: 3}
   staminaGlobe: {fileID: 1451370306678278486, guid: e5f7042293b74df469f18257ec297ec9, type: 3}
+--- !u!95 &8839576319226131942
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035018823044430926}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8774010348710672363
 GameObject:
   m_ObjectHideFlags: 0

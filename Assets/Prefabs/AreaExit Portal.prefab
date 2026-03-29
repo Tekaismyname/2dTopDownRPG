@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5592203909648561991}
   - component: {fileID: 3202200556765508490}
   m_Layer: 0
-  m_Name: AreaExit
+  m_Name: AreaExit Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

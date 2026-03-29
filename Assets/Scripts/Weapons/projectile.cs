@@ -34,16 +34,30 @@ public class projectile : MonoBehaviour
         Indestructible indestructible = other.gameObject.GetComponent<Indestructible>();
         PlayerHealth player = other.gameObject.GetComponent<PlayerHealth>();
 
-        if (!other.isTrigger && (enemyHealth || indestructible || player)) {
-            if ((player && isEnemyProjectile) || (enemyHealth && !isEnemyProjectile)) {
-                player?.TakeDamage(1, transform);
-                Instantiate(particleOnHitPrefabVFX, transform.position, transform.rotation);
-                Destroy(gameObject);
-            } else if (!other.isTrigger && indestructible) {
-                Instantiate(particleOnHitPrefabVFX, transform.position, transform.rotation);
-                Destroy(gameObject);
-            }
+        if (other.isTrigger) return;
+
+        if (isEnemyProjectile && player) {
+            player.TakeDamage(1, transform);
+            HitEffect();
+            return;
         }
+
+        if (!isEnemyProjectile && enemyHealth) {
+            enemyHealth.TakeDamage(1);
+            HitEffect();
+            return;
+        }
+
+        if (indestructible) {
+            HitEffect();
+        }
+    }
+
+    private void HitEffect() {
+        if (particleOnHitPrefabVFX != null) {
+            Instantiate(particleOnHitPrefabVFX, transform.position, transform.rotation);
+        }
+        Destroy(gameObject);
     }
 
     private void DetectFireDistance() {

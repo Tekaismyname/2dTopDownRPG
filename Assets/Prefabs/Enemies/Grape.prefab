@@ -279,9 +279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 600d00b30a3009d4d8c9def9e37f5758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  startingHealth: 4
   deathVFXPrefab: {fileID: 4773245419375888786, guid: 95b12a17abd6e3a489c71d9e1c31bc3e, type: 3}
   knockBackthrust: 15
+  deathAnimationDuration: 0.8
 --- !u!114 &3010099873228643836
 MonoBehaviour:
   m_ObjectHideFlags: 0
